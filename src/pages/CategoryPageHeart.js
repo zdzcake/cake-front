@@ -51,7 +51,7 @@ const StyledButton1 = styled.button`
   margin-left:30px;
 `;
 
-function CategoryPage() {
+function CategoryPageHeart() {
     return(
 
      <div>
@@ -66,7 +66,7 @@ function CategoryPage() {
        <br/>
        <br/>
        <br/>
-       <BigText>이 레터링 케이크 가게는 어때요?</BigText>
+       <BigText>이 하트 케이크 가게는 어때요?</BigText>
        <br/>
        <br/>
        <br/>
@@ -77,9 +77,9 @@ function CategoryPage() {
     
     
     <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
-    <Link to="./CategoryPage">
+    <Link to="./CategoryPageDosirak">
        <div>
-       <img className="dosirak"
+       <img alt="dosirak"
        src="img/dosirak.jpg"
        width="350"
        height="350"
@@ -91,7 +91,7 @@ function CategoryPage() {
         &emsp;  &emsp;  &emsp;
 
         <div>
-       <img className="heart"
+       <img alt="heart"
        src="img/heart.jpg"
        width="350"
        height="350"
@@ -103,7 +103,7 @@ function CategoryPage() {
         &emsp;  &emsp;  &emsp;
 
         <div>
-       <img className="letter"
+       <img alt="letter"
        src="img/letter.jpg"
        width="350"
        height="350"
@@ -117,7 +117,7 @@ function CategoryPage() {
         <br/>
         <br/>
         <br/>
-    <BigText>이 케이크 가게는 어때요?</BigText>
+
     <br/>
         <br/>
         <br/>
@@ -128,4 +128,4 @@ function CategoryPage() {
      
     );
 }
-export default CategoryPage;
+export default CategoryPageHeart;

@@ -1,11 +1,11 @@
 import React from 'react';
 import MainPage from './pages/MainPage';
-import CategoryPage from './pages/CategoryPage';
-import DetailPage from './pages/DetailPage';
-import MapPage from './pages/MapPage';
 import './App.css'
 import { GlobalStyle } from './GlobalStyles';
 import {Route,Routes,BrowserRouter} from "react-router-dom";
+import CategoryPageDosirak from './pages/CategoryPageDosirak';
+import CategoryPageLetter from './pages/CategoryPageLetter';
+import CategoryPageHeart from './pages/CategoryPageHeart';
 
 function App() {
   return (
@@ -15,20 +15,16 @@ function App() {
       <BrowserRouter>
           <div>
       <Routes>
-      <Route path="/MainPage" element={<MainPage/>}/>
-      <Route path="/CategoryPage" element={<CategoryPage/>}/>
+      <Route path="/" element={<MainPage/>}/>
+      <Route path="/CategoryPageDosirak" element={<CategoryPageDosirak/>}/>
+      <Route path="/CategoryPageLetter" element={<CategoryPageLetter/>}/>
+      <Route path="/CategoryPageHeart" element={<CategoryPageHeart/>}/>
       {/* <Route path="/DetailPage" element={<DetailPage/>}/>
       <Route path="/MapPage" element={<MapPage/>}/> */}
       </Routes>
-      
-      <MainPage/>
-      <CategoryPage/>
-
-
     </div>
     </BrowserRouter>
 
-  
     </>
   );
 }
