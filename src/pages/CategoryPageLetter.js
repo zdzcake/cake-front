@@ -1,7 +1,7 @@
 import React from "react";
 import styled from 'styled-components';
 import Header from '../components/Header'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const BigText = styled.button`
   height: 48px;
@@ -51,7 +51,20 @@ const StyledButton1 = styled.button`
   margin-left:30px;
 `;
 
+const StyledButtonPage = styled.button`
+  height: 39px;
+  width: 131px;
+  background-color: #FEF6F4;
+  font-size: 16px;
+  color:#7B43F1;
+  border-color:#7B43F1;
+  border-radius:19.5px;
+  outline:0;
+  margin-left:30px;
+`;
+
 function CategoryPageLetter() {
+    const navigate=useNavigate();
     return(
 
      <div>
@@ -59,9 +72,15 @@ function CategoryPageLetter() {
        <br/>
        <br/>
        <SmallText>카테고리</SmallText>
-       <StyledButton1>도시락케이크</StyledButton1>
-       <StyledButton1>하트케이크</StyledButton1>
-       <StyledButton1>레터링케이크</StyledButton1>
+       <StyledButton1
+       onClick={()=>{
+        navigate("/CategoryPageDosirak")
+       }}>도시락케이크</StyledButton1>
+       <StyledButton1
+       onClick={()=>{
+        navigate("/CategoryPageHeart")
+       }}>하트케이크</StyledButton1>
+       <StyledButtonPage>레터링케이크</StyledButtonPage>
        <br/>
        <br/>
        <br/>
