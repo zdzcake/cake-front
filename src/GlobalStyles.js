@@ -19,7 +19,7 @@ body {
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
-    background-color: #FFF;
+    background-color: #Fff;
 
     font-weight: bold;
     font-family: 'Inter', sans-serif;

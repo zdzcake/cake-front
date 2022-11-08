@@ -15,17 +15,20 @@ function App() {
       <BrowserRouter>
           <div>
       <Routes>
-      <Route path="/" element={<MainPage/>}/>
+      <Route path="/MainPage" element={<MainPage/>}/>
       <Route path="/CategoryPage" element={<CategoryPage/>}/>
       {/* <Route path="/DetailPage" element={<DetailPage/>}/>
       <Route path="/MapPage" element={<MapPage/>}/> */}
       </Routes>
       
+      <MainPage/>
+      <CategoryPage/>
 
-<MainPage/>
 
     </div>
     </BrowserRouter>
+
+  
     </>
   );
 }
