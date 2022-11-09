@@ -62,6 +62,7 @@ function DetailPage() {
        </div>
 
         <div>
+        &emsp;&emsp;
         <img alt="cakeexample"
        src="img/cake1.PNG"
        width="380"
@@ -71,6 +72,7 @@ function DetailPage() {
        </div>
 
         <div>
+        &emsp;&emsp;
         <img alt="cakeexample2"
        src = "img/cake2.PNG"
        width="380"
@@ -89,7 +91,8 @@ function DetailPage() {
     <MiddleText>직접 구운 촉촉한 시트와 크림치즈크림을 사용합니다.</MiddleText>
     <br/>
     <br/>
-    <div style={{margininLeft:'50'}}>
+    <div>
+    &emsp;&emsp;&emsp;
     <StyledButton>#충무로케이크</StyledButton>
     <StyledButton>#레터링케이크</StyledButton>
     <StyledButton>#도시락케이크</StyledButton>
