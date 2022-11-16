@@ -23,8 +23,8 @@ function App() {
       <Route path="/DetailPage" element={<DetailPage/>}/>
       {/*<Route path="/MapPage" element={<MapPage/>}/> */}
       </Routes>
-      <MapPage/>
-      <DetailPage/>
+      {/* <MapPage/> */}
+      {/* <DetailPage/> */}
     </div>
     </BrowserRouter>
 
