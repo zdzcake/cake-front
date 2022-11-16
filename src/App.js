@@ -6,7 +6,6 @@ import {Route,Routes,BrowserRouter} from "react-router-dom";
 import CategoryPageDosirak from './pages/CategoryPageDosirak';
 import CategoryPageLetter from './pages/CategoryPageLetter';
 import CategoryPageHeart from './pages/CategoryPageHeart';
-import MapPage from './pages/MapPage';
 import DetailPage from './pages/DetailPage';
 function App() {
   return (
@@ -21,7 +20,7 @@ function App() {
       <Route path="/CategoryPageLetter" element={<CategoryPageLetter/>}/>
       <Route path="/CategoryPageHeart" element={<CategoryPageHeart/>}/>
       <Route path="/DetailPage" element={<DetailPage/>}/>
-      {/* <Route path="/MapPage" element={<MapPage/>}/> */}
+      {/*<Route path="/MapPage" element={<MapPage/>}/> */}
       </Routes>
       <MapPage/>
       <DetailPage/>
