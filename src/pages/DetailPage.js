@@ -1,8 +1,8 @@
 import React from "react";
 import styled from 'styled-components';
 import Header from '../components/Header'
-import { useNavigate } from "react-router-dom";
-import "../map.js"
+// import { useNavigate } from "react-router-dom";
+// import "../map.js"
 
 const BigText = styled.button`
   height: 48px;
@@ -43,7 +43,7 @@ const StyledButton = styled.button`
 
 
 function DetailPage() {
-    const navigate = useNavigate();
+
     return(
 
      <div>
