@@ -2,6 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import Header from '../components/Header'
 import { useNavigate } from "react-router-dom";
+import "../map.js"
 
 const BigText = styled.button`
   height: 48px;
@@ -98,6 +99,7 @@ function DetailPage() {
     <StyledButton>#도시락케이크</StyledButton>
     </div>
     </div>
+    <map/>
     </div>
     );
 }
