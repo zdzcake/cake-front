@@ -7,6 +7,7 @@ import CategoryPageDosirak from './pages/CategoryPageDosirak';
 import CategoryPageLetter from './pages/CategoryPageLetter';
 import CategoryPageHeart from './pages/CategoryPageHeart';
 import DetailPage from './pages/DetailPage';
+
 function App() {
   return (
 <>
