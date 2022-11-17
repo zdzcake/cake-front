@@ -7,7 +7,7 @@ const HeaderContents=styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #E6D2F5;
+    background-color: #EFE5F6;
     width:100%;
     justify-content:center;
 `;
@@ -25,7 +25,8 @@ const Header = () => (
    <div className="search-bar">
    <BiSearch
    size="25"
-   color="#7B43F1"/>
+   color="#7B43F1"
+   font-weight="5px"/>
    <input className="search-bar_input"
 placeholder={`주문하고 싶은 케이크를 검색해 보세요`}>
 
