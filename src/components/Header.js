@@ -16,7 +16,7 @@ const Header = () => (
     <HeaderContents>
    
     <img className="Logo"
-    src="img/logo2.png"
+    src="img/newnew.png"
     width="200"
     height="90"
     />

@@ -2,7 +2,7 @@ import React from "react";
 import styled from 'styled-components';
 import Header from '../components/Header'
 import { Link, useNavigate } from "react-router-dom";
-import { NaverMap, RenderAfterNavermapsLoaded } from "react-naver-maps";
+
 
 const BigText = styled.button`
   height: 48px;
@@ -65,7 +65,7 @@ const StyledButtonPage = styled.button`
 `;
 
 function MapPage() {
-    const navigate=useNavigate();
+
     return(
 
      <div>

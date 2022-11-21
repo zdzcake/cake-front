@@ -15,6 +15,7 @@
 input::placeholder{
     color:#7B43F1;
     font-size:18px;
+    font-weight:bold;
 }
 
 .search-bar{
@@ -22,7 +23,7 @@ input::placeholder{
     height: 48px;
     border-radius: 9px;
     border: solid 2px;
-    border-color:#7B43F1;
+    border-color:white;
     display: flex;
     align-items: center;
     z-index: 1;
