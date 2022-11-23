@@ -57,17 +57,29 @@ const StyledButton = styled.button`
   margin-left:30px;
 
 `;
-const map = styled.button`
-  width: 700;
-  height: 200px;
-  align-items: center;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-width: medium;
-  border-color: #D8D8D8;
-}`
+
+const InfoSmallText = styled.button`
+  height: 48px;
+  width: 100px;
+  background-color: #ffffff;
+  font-size: 14px;
+  color:#7D756D;
+  border-color:#ffffff;
+  border:0;
+  outline:0;
+  font-weight:200;
+`;
+
+const InfoBigText = styled.button`
+  height: 48px;
+  width: 500px;
+  background-color: #ffffff;
+  font-size: 20px;
+  color:#7D756D;
+  border-color:#ffffff;
+  border:0;
+  outline:0;
+`;
 
 
 function DetailPage() {
@@ -80,7 +92,7 @@ function DetailPage() {
        <br/>
        <br/>
        <center>
-    <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+     <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
         <div>
             <img alt="joocake"
             src="img/joocakelogo.PNG"
@@ -130,20 +142,87 @@ function DetailPage() {
     </div>
     </div>
     <br/>
-    <br/>
+  
     <div>
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
     <img alt="map"
        src = "img/map.PNG"
        width="15"
-       height="15"
+       height="15
+"
        />
+       <br>
+       </br>
+       <SmallText>서울특별시 중구 서애로 12-8</SmallText>
        <MapTest></MapTest>
-      <br/>
-      <br/>
-    <SmallText>서울특별시 중구 서애로 12-8</SmallText>
+       
     </div>
+    <br></br>
+    <center>
+      <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
+        <div>
+          <img alt=""
+          src = "img/phone.PNG"
+          width="40"
+          height="40"
+          />
+          <br/>
+          <InfoBigText>전화번호</InfoBigText>
+          <br/>
+          <br/>
+          <InfoSmallText> 0507-1330-4804</InfoSmallText>
+        </div>
+        <div>
+        &emsp;&emsp;
+          <img alt = ""
+          src = "img/clock.PNG"
+          width="40"
+          height="40"
+          />
+          <br/>
+          <InfoBigText>영업시간</InfoBigText>
+          <br/>
+          <br/>
+          <InfoSmallText> 
+          13:00 ~ 19:30: 화, 목, 금
+          </InfoSmallText>
+          <InfoSmallText>
+          13:00 ~ 17:30: 수
+          </InfoSmallText>
+          <InfoSmallText>
+          13:00 ~ 16:30: 토
+          </InfoSmallText>
+        </div>
+        <div>
+        &emsp;&emsp;
+        <img alt = ""
+          src = "img/cal.PNG"
+          width="40"
+          height="40"
+          />
+          <br/>
+          <InfoBigText>휴무일</InfoBigText>
+          <br/>
+          <br/>
+          <InfoSmallText> 휴무일: 일, 월</InfoSmallText>
+        </div>
+        <div>
+        &emsp;&emsp;
+          <img alt = ""
+          src = "img/insta.PNG"
+          width="40"
+          height="40"
+          />
+          <br/>
+          <InfoBigText>인스타그램</InfoBigText>
+          <br/>
+          <br/>
+          <InfoSmallText>https://www.instagram.com/joocake_com/</InfoSmallText>
+        </div>
+      </div>
+    </center>
+
     </div>
     );
 }
