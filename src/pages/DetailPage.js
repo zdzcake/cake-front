@@ -72,7 +72,7 @@ const InfoSmallText = styled.button`
 
 const InfoBigText = styled.button`
   height: 48px;
-  width: 500px;
+  width: 300px;
   background-color: #ffffff;
   font-size: 20px;
   color:#7D756D;
@@ -149,8 +149,7 @@ function DetailPage() {
     <img alt="map"
        src = "img/map.PNG"
        width="15"
-       height="15
-"
+       height="15"
        />
        <br>
        </br>
@@ -174,7 +173,6 @@ function DetailPage() {
           <InfoSmallText> 0507-1330-4804</InfoSmallText>
         </div>
         <div>
-        &emsp;&emsp;
           <img alt = ""
           src = "img/clock.PNG"
           width="40"
@@ -195,7 +193,6 @@ function DetailPage() {
           </InfoSmallText>
         </div>
         <div>
-        &emsp;&emsp;
         <img alt = ""
           src = "img/cal.PNG"
           width="40"
@@ -208,7 +205,6 @@ function DetailPage() {
           <InfoSmallText> 휴무일: 일, 월</InfoSmallText>
         </div>
         <div>
-        &emsp;&emsp;
           <img alt = ""
           src = "img/insta.PNG"
           width="40"
@@ -218,7 +214,7 @@ function DetailPage() {
           <InfoBigText>인스타그램</InfoBigText>
           <br/>
           <br/>
-          <InfoSmallText>https://www.instagram.com/joocake_com/</InfoSmallText>
+          <InfoSmallText onClick={() => window.open('https://www.instagram.com/joocake_com', '_blank')}>https://www.instagram.com/joocake_com</InfoSmallText>
         </div>
       </div>
     </center>
