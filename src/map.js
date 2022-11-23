@@ -62,5 +62,5 @@ export default function Map() {
     marker.setMap(map);
   };
 
-  return <div id="map" style={{ marginLeft: '550px',width: "50vw", height: "20vh" }}></div>;
+  return <div id="map" style={{ marginLeft: '600px',width: "45vw", height: "20vh" }}></div>;
 }
