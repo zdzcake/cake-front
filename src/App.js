@@ -7,6 +7,7 @@ import CategoryPageDosirak from './pages/CategoryPageDosirak';
 import CategoryPageLetter from './pages/CategoryPageLetter';
 import CategoryPageHeart from './pages/CategoryPageHeart';
 import DetailPage from './pages/DetailPage';
+import AuctionPage from './pages/AuctionPage';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/CategoryPageLetter" element={<CategoryPageLetter/>}/>
       <Route path="/CategoryPageHeart" element={<CategoryPageHeart/>}/>
       <Route path="/DetailPage" element={<DetailPage/>}/>
+      <Route path="/AuctionPage" element={<AuctionPage/>}/>
       {/*<Route path="/MapPage" element={<MapPage/>}/> */}
       </Routes>
       {/* <MapPage/> */}
