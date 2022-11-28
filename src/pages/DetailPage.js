@@ -1,10 +1,26 @@
+import axios from "axios";
 import React from "react";
 import styled from 'styled-components';
 import Header from '../components/Header'
 import { useNavigate } from "react-router-dom";
 import "../map.js"
 import MapTest from "../map.js";
+//post요청 전송 
+//가게이름을 어떻게 보내죠...?
+axios({
+  url: ' http://15.164.222.12/',
+  method: 'post',
+  data:{
+    store: ' '
+  }
 
+})
+//get요청 전송
+//가게 위도, 경도 받아오기
+axios({
+  url: ' http://15.164.222.12/store',
+  method: 'get',
+})
 const BigText = styled.button`
   height: 48px;
   width: 1000px;
